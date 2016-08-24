@@ -1,0 +1,175 @@
+*::-webkit-input-placeholder {
+  color: #666;
+  opacity: 1; }
+
+*:-moz-placeholder {
+  color: #666;
+  opacity: 1; }
+
+*::-moz-placeholder {
+  color: #666;
+  opacity: 1; }
+
+*:-ms-input-placeholder {
+  color: #666;
+  opacity: 1; }
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: #666; }
+
+body input:required:valid,
+body textarea:required:valid {
+  color: #666; }
+
+<<<<<<< HEAD
+footer {
+  background-color: #000000;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 11px;
+  padding-bottom: 2px; }
+  footer ul {
+    margin-top: 19px;
+    float: left;
+    padding-left: 0;
+    padding-right: 0; }
+    footer ul li {
+      float: left;
+      margin-right: 20px; }
+      footer ul li a {
+        text-decoration: none;
+        color: #616161;
+        font-size: 16px; }
+      footer ul li a:hover {
+        text-decoration: none;
+        color: #fff; }
+  footer .gs {
+    float: right;
+    margin: 9px;
+    margin-right: 15px;
+    display: block; }
+  footer .gs:visited, footer .gs:active {
+    text-decoration: none; }
+=======
+.inner {
+  max-width: 1600px;
+  margin: 0 auto; }
+
+.bg-grey {
+  background-color: #f3f3f3; }
+
+.open-russia__h h3 {
+  border-left: 3px solid #dd0808;
+  padding-left: 15px; }
+
+.open-russia__h p {
+  text-transform: uppercase;
+  padding-top: 10px; }
+
+.open-russia__content__item .p-bold {
+  text-transform: uppercase;
+  color: white; }
+
+.open-russia__content__item_cake {
+  background-image: url("../img/raster/cake.png");
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 100%; }
+
+.krasnodar {
+  background-image: url("../img/raster/bg-tree.png");
+  text-align: center; }
+  .krasnodar h2 {
+    text-transform: uppercase;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 20px; }
+  .krasnodar p {
+    text-transform: uppercase; }
+
+.btn-overall {
+  background: none;
+  border: 2px solid white;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color: white;
+  font-size: 19px;
+  font-weight: 400;
+  padding: 15px 32px; }
+  .btn-overall:hover {
+    background-color: #4b3730;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all; }
+
+.kr-btn {
+  margin: 60px 0; }
+>>>>>>> 1e1ef7d8cb8bd1baa334892d3ceadcf4648b1b36
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .krasnodar h2 {
+    font-size: 50px;
+    font-weight: 700; }
+  .krasnodar p {
+    font-size: 26px; } }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .krasnodar h2 {
+    font-size: 47px;
+    font-weight: 700; }
+  .krasnodar p {
+    font-size: 23px; } }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .krasnodar h2 {
+    font-size: 42px; }
+  .krasnodar p {
+    font-size: 20px; } }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .krasnodar h2 {
+    font-size: 34px; }
+  .krasnodar p {
+    font-size: 20px; } }
+
+/* ============================ form css =========================== */
+h2 {
+  font-size: 52px;
+  font-weight: 700; }
+
+h3 {
+  color: #222;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 35px; }
+
+.p-thin {
+  font-size: 28px;
+  font-weight: 400;
+  color: white; }
+
+p {
+  font-size: 18px;
+  font-weight: 400; }
+
+.p-bold {
+  font-size: 26px;
+  font-weight: 700; }
+
+.p-small {
+  color: white;
+  font-size: 17px;
+  font-weight: 400; }
+
+.jb_input .mess_error {
+  position: relative;
+  width: 100%;
+  padding: 5px 0px;
+  top: -5px;
+  float: left; }
+
+/* ============================ form css media =========================== */

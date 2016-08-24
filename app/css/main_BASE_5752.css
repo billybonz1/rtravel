@@ -1,0 +1,182 @@
+*::-webkit-input-placeholder {
+  color: #666;
+  opacity: 1; }
+
+*:-moz-placeholder {
+  color: #666;
+  opacity: 1; }
+
+*::-moz-placeholder {
+  color: #666;
+  opacity: 1; }
+
+*:-ms-input-placeholder {
+  color: #666;
+  opacity: 1; }
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: #666; }
+
+body input:required:valid,
+body textarea:required:valid {
+  color: #666; }
+
+.inner {
+  width: 1600px;
+  margin: 0 auto; }
+
+h1 {
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 500; }
+
+.news {
+  text-align: center; }
+
+.news-bord {
+  border-top: 1px solid #d3d3d3; }
+
+.line {
+  width: 65px;
+  height: 3px;
+  background-color: #dedede;
+  margin-top: 16px; }
+
+.news-bord h2 {
+  color: #222;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+  padding-top: 30px; }
+
+.data {
+  color: #dd0808;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-top: 10px; }
+
+.locale {
+  color: #8b8b8b;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-top: 8px; }
+
+.info-sity {
+  color: #222;
+  font-family: 'Istok Web', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 20px;
+  padding-top: 15px; }
+
+.news-bord img {
+  padding: 15px 0 0 0; }
+
+.news-ser {
+  height: 213px;
+  color: #8b8b8b;
+  font-family: 'Istok Web', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  padding-top: 15px; }
+
+.all-news-popup {
+  border: 2px solid lightgrey;
+  background: #fff;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  color: #222;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 15px 39px; }
+  .all-news-popup:hover {
+    background-color: #8a8a8a; }
+
+.bot-news-button {
+  width: 181px;
+  margin: 20px auto; }
+
+.news p {
+  color: #222;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase; }
+
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .wrapper {
+    width: auto; }
+  .pad {
+    padding: 50px 5px !important; }
+  footer {
+    text-align: center; }
+    footer .wrapper {
+      width: auto; }
+    footer ul {
+      float: none;
+      display: inline-block;
+      text-align: center; }
+      footer ul li {
+        margin-bottom: 10px;
+        margin-right: 0;
+        float: none; }
+    footer .gs {
+      float: none;
+      display: block; } }
+
+/* Small Devices, Tablets */
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .pad {
+    padding: 20px 5px !important; } }
+
+/* ============================ form css =========================== */
+.inner {
+  width: 1600px;
+  margin: 0 auto; }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400; }
+
+h1 {
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 78px; }
+
+h3 {
+  color: #222;
+  font-size: 36px;
+  font-weight: 500; }
+
+.p-thin {
+  font-size: 28px;
+  font-weight: 400; }
+
+p {
+  font-size: 18px;
+  font-weight: 400; }
+
+.p-bold {
+  font-size: 26px;
+  font-weight: 700; }
+
+.jb_input .mess_error {
+  position: relative;
+  width: 100%;
+  padding: 5px 0px;
+  top: -5px;
+  float: left; }
+
+/* ============================ form css media =========================== */
