@@ -30,8 +30,7 @@ body textarea:required:valid {
   font-family: Roboto;
   font-size: 17px;
   font-weight: 400;
-  text-transform: uppercase;
-  padding-top: 10px; }
+  text-transform: uppercase; }
 
 .news-left {
   padding-bottom: 20px; }
@@ -245,13 +244,6 @@ body textarea:required:valid {
   .krasnodar p {
     font-size: 26px; } }
 
-@media only screen and (max-width: 1128px) {
-  .news-bord h2 {
-    min-height: 126px; }
-  .news-ser {
-    font-size: 10px;
-    line-height: 14px; } }
-
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
   .krasnodar h2 {
@@ -283,6 +275,10 @@ body textarea:required:valid {
     font-size: 20px; } }
 
 /* ============================ form css =========================== */
+.inner {
+  max-width: 1600px;
+  margin: 0 auto; }
+
 h2 {
   font-size: 52px;
   font-weight: 700; }
@@ -319,3 +315,52 @@ p {
   float: left; }
 
 /* ============================ form css media =========================== */
+.h3-border-cont {
+  position: relative; }
+
+.news-right {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  margin-top: -6px; }
+
+.rus-region *[class*="col-"] {
+  padding: 0px; }
+
+.rus-region .row {
+  margin: 0; }
+
+.rus-region__item_long {
+  min-height: 251px; }
+
+.rus-region__item {
+  background-size: cover;
+  min-height: 252px; }
+  .rus-region__item p {
+    text-shadow: 0.3px 0.9px 3px rgba(0, 0, 0, 0.75);
+    color: white;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px; }
+
+.or-border_margin {
+  margin-bottom: 20px; }
+
+.rus-region__item_high {
+  min-height: 504px; }
+  .rus-region__item_high span {
+    top: 250px; }
+  .rus-region__item_high p {
+    top: 300px; }
+
+.footer {
+  background: #2d2d2d; }
+
+@media only screen and (max-width: 992px) {
+  .rus-region__item_high {
+    min-height: 251px; }
+    .rus-region__item_high span {
+      top: 90px; }
+    .rus-region__item_high p {
+      top: 130px; } }
