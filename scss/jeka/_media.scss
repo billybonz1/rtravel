@@ -1,1 +1,13 @@
 @import "bourbon";
+@media only screen and (max-width : 992px) {
+  .rus-region__item_high{
+    min-height: 251px;
+    span{
+      top: 90px;
+    }
+    p{
+      top: 130px;
+    }
+  }
+
+}
