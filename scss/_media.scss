@@ -3,70 +3,50 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-    .news-ser{
-      max-height: 195px;
-    }
-}
-
-@media only screen and (max-width : 1128px) {
-	.news-bord h2{
-		min-height: 126px;
+	.krasnodar{
+		h2{
+			font-size: 50px;
+			font-weight: 700;
+		}
+		p{
+			font-size: 26px;
+		}
 	}
-
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-	.wrapper{
-		width: auto;
-	}
-	.pad{
-		padding: 50px 5px !important;
-	}
-	footer{
-		text-align: center;
-		.wrapper{
-			width: auto;
+	.krasnodar{
+		h2{
+			font-size: 47px;
+			font-weight: 700;
 		}
-		ul{
-			float: none;
-			display: inline-block;
-			text-align: center;
-			li{
-				margin-bottom: 10px;
-				margin-right: 0;
-				float: none;
-			}
+		p{
+			font-size: 23px;
 		}
-		.gs{
-			float: none;
-			display: block;
-		}
-
 	}
-  .news-ser{
-    max-height: 120px;
-  }
-  .news-mid__item{
-    min-height: 592px;
-  }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-  .news-mid__item{
-    min-height: 10px;
-  }
+	.krasnodar{
+		h2{
+			font-size: 42px;
+		}
+		p{
+			font-size: 20px;
+		}
+	}
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-	.pad{
-		padding: 20px 5px !important;
+	.krasnodar{
+		h2{
+			font-size: 34px;
+		}
+		p{
+			font-size: 20px;
+		}
 	}
-	// 100% ширина окна
-	// .fancybox-wrap{
-	// 	width: 100% !important;
-	// 	left: 0 !important;
-	// }
 }

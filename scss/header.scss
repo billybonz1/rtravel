@@ -1,9 +1,23 @@
 @import "bourbon";
 @import "vars.scss";
 @import "../libs/lightslider/dist/css/lightslider.min.css";
-
+body{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
 .header-slider{
   li{
     height: 768px;
   }
 }
+
+
+
+
+
+
+
+
+
+
+

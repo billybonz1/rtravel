@@ -23,146 +23,103 @@ body textarea:required:valid {
   color: #666; }
 
 .inner {
-  width: 1600px;
+  max-width: 1600px;
   margin: 0 auto; }
 
-h1 {
-  font-family: Roboto;
-  font-size: 36px;
-  font-weight: 500; }
+.bg-grey {
+  background-color: #f3f3f3; }
 
-.news {
-  text-align: center; }
+.open-russia__h h3 {
+  border-left: 3px solid #dd0808;
+  padding-left: 15px; }
 
-.news-bord {
-  border-top: 1px solid #d3d3d3; }
-
-.line {
-  width: 65px;
-  height: 3px;
-  background-color: #dedede;
-  margin-top: 16px; }
-
-.news-bord h2 {
-  color: #222;
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 24px;
+.open-russia__h p {
   text-transform: uppercase;
-  padding-top: 30px; }
-
-.data {
-  color: #dd0808;
-  font-family: Roboto;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 24px;
   padding-top: 10px; }
 
-.locale {
-  color: #8b8b8b;
-  font-family: Roboto;
-  font-size: 14px;
+.open-russia__content__item .p-bold {
+  text-transform: uppercase;
+  color: white; }
+
+.open-russia__content__item_cake {
+  background-image: url("../img/raster/cake.png");
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 100%; }
+
+.krasnodar {
+  background-image: url("../img/raster/bg-tree.png");
+  text-align: center; }
+  .krasnodar h2 {
+    text-transform: uppercase;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 20px; }
+  .krasnodar p {
+    text-transform: uppercase; }
+
+.btn-overall {
+  background: none;
+  border: 2px solid white;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color: white;
+  font-size: 19px;
   font-weight: 400;
-  line-height: 24px;
-  padding-top: 8px; }
+  padding: 15px 32px; }
+  .btn-overall:hover {
+    background-color: #4b3730;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all; }
 
-.info-sity {
-  color: #222;
-  font-family: 'Istok Web', sans-serif;
-  font-size: 15px;
-  font-weight: bold;
-  line-height: 20px;
-  padding-top: 15px; }
-
-.news-bord img {
-  padding: 15px 0 0 0; }
-
-.news-ser {
-  height: 213px;
-  color: #8b8b8b;
-  font-family: 'Istok Web', sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 20px;
-  padding-top: 15px; }
-
-.all-news-popup {
-  border: 2px solid lightgrey;
-  background: #fff;
-  -webkit-border-radius: 4px;
-  border-radius: 4px;
-  color: #222;
-  font-family: Roboto;
-  font-size: 17px;
-  font-weight: 400;
-  padding: 15px 39px; }
-  .all-news-popup:hover {
-    background-color: #8a8a8a; }
-
-.bot-news-button {
-  width: 181px;
-  margin: 20px auto; }
-
-.news p {
-  color: #222;
-  font-family: Roboto;
-  font-size: 18px;
-  font-weight: 400;
-  text-transform: uppercase; }
+.kr-btn {
+  margin: 60px 0; }
 
 /* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .krasnodar h2 {
+    font-size: 50px;
+    font-weight: 700; }
+  .krasnodar p {
+    font-size: 26px; } }
+
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
-  .wrapper {
-    width: auto; }
-  .pad {
-    padding: 50px 5px !important; }
-  footer {
-    text-align: center; }
-    footer .wrapper {
-      width: auto; }
-    footer ul {
-      float: none;
-      display: inline-block;
-      text-align: center; }
-      footer ul li {
-        margin-bottom: 10px;
-        margin-right: 0;
-        float: none; }
-    footer .gs {
-      float: none;
-      display: block; } }
+  .krasnodar h2 {
+    font-size: 47px;
+    font-weight: 700; }
+  .krasnodar p {
+    font-size: 23px; } }
 
 /* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .krasnodar h2 {
+    font-size: 42px; }
+  .krasnodar p {
+    font-size: 20px; } }
+
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
-  .pad {
-    padding: 20px 5px !important; } }
+  .krasnodar h2 {
+    font-size: 34px; }
+  .krasnodar p {
+    font-size: 20px; } }
 
 /* ============================ form css =========================== */
-.inner {
-  width: 1600px;
-  margin: 0 auto; }
-
-body {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400; }
-
-h1 {
+h2 {
   font-size: 52px;
-  font-weight: 700;
-  line-height: 78px; }
+  font-weight: 700; }
 
 h3 {
   color: #222;
   font-size: 36px;
-  font-weight: 500; }
+  font-weight: 500;
+  line-height: 35px; }
 
 .p-thin {
   font-size: 28px;
-  font-weight: 400; }
+  font-weight: 400;
+  color: white; }
 
 p {
   font-size: 18px;
@@ -171,6 +128,11 @@ p {
 .p-bold {
   font-size: 26px;
   font-weight: 700; }
+
+.p-small {
+  color: white;
+  font-size: 17px;
+  font-weight: 400; }
 
 .jb_input .mess_error {
   position: relative;
