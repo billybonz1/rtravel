@@ -1,1 +1,140 @@
 @import "bourbon";
+
+header{
+  position: relative;
+}
+.header-top_red{
+  color: #dd0808;
+}
+.header-top{
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  padding-bottom: 15px;
+  z-index: 2;
+  width: 100%;
+}
+.logo{
+  padding-top: 20px;
+  a{
+    font-size: 32px;
+    font-weight: 500;
+    color: black;
+    padding-right: 7px;
+    &:hover{
+      text-decoration: none;
+    }
+  }
+  p{
+    font-size: 12px;
+    font-weight: 400;
+    color: black;
+    border-left: 2px dotted #8b8b8b;
+    padding-left: 15px;
+    line-height: 15px;
+  }
+}
+.header-slider{
+  li{
+    text-align: center;
+    padding-top: 285px;
+  }
+}
+.header-btn{
+  margin-top: 80px;
+}
+.header-slider-container{
+  .lSPager.lSpg{
+    position: absolute;
+    width: 100%;
+    bottom: 65px;
+    li{
+      &.active{
+        a{
+          background-color: rgba(255, 255, 255,1);
+        }
+      }
+      a{
+        background-color: transparent;
+        border: 1px solid white;
+        height: 14px;
+        width: 14px;
+        &:hover{
+          background-color: rgba(255, 255, 255, 0.5);
+        }
+      }
+    }
+  }
+}
+.header-top__menu{
+  border-top: 1px solid lightgrey;
+  margin-top: 20px;
+  li{
+    display: inline-block;
+    padding-top: 18px;
+    padding-right: 70px;
+    &.with-sub-menu{
+      cursor: pointer;
+      position: relative;
+      &:after{
+        display: inline-block;
+        width: 10px;
+        height: 6px;
+        background-repeat: no-repeat;
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAGCAYAAAD68A/GAAAAZUlEQVQIW43NUQ2DQBAE0IeDSqgEJCChEioBCUgABSABCTigUpDQzIVL+KBJ529v3u02/kyDD0YsP/680Qe22DLc4KABr8DkiRUzpvOtAHQ4Kkz3ODfvqJcKSnmFFWdzypwtKPkCP3UQB1Q+43wAAAAASUVORK5CYII=);
+        content: "";
+        vertical-align: middle;
+        margin-left: 8px;
+      }
+
+      .sub-menu{
+        visibility: hidden;
+        position: absolute;
+        top: 52px;
+        left: -10px;
+        background-color: rgba(255, 255, 255, 0.9);
+        transition: .2s all;
+        transform: scale(0);
+        opacity: 0;
+        min-width: 180px;
+        li{
+          padding: 0;
+          display: block;
+        }
+        a{
+          padding: 10px 10px;
+        }
+      }
+
+      &.active{
+        .sub-menu{
+          visibility: visible;
+          opacity: 1;
+          transform: scale(1);
+        }
+        &:after{
+          transform: rotate(180deg);
+        }
+
+      }
+    }
+
+    a{
+      color: #222;
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+      display: inline-block;
+      vertical-align: middle;
+      transition: .2s all;
+      &:hover{
+        text-decoration: none;
+        color: grey;
+      }
+      &:focus{
+        text-decoration: none;
+      }
+    }
+
+
+  }
+}
