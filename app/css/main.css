@@ -180,7 +180,7 @@ body textarea:required:valid {
     font-weight: 700;
     line-height: 24px;
     text-transform: uppercase;
-    top: 90px; }
+    top: 36%; }
   .or__item p {
     font-size: 15px;
     font-weight: 400;
@@ -312,3 +312,53 @@ p {
   float: left; }
 
 /* ============================ form css media =========================== */
+@media only screen and (max-width: 1200px) {
+  .or__item span {
+    font-size: 23px; }
+  .or__item p {
+    font-size: 13px; }
+  .header-slider h2 {
+    font-size: 50px;
+    font-weight: 700; }
+  .header-slider p {
+    font-size: 26px; } }
+
+@media only screen and (max-width: 992px) {
+  .header-slider h2 {
+    font-size: 47px;
+    font-weight: 700; }
+  .header-slider p {
+    font-size: 23px; } }
+
+@media only screen and (max-width: 768px) {
+  .header-slider h2 {
+    font-size: 42px; }
+  .header-slider p {
+    font-size: 20px; } }
+
+@media only screen and (max-width: 480px) {
+  .or__item span {
+    font-size: 24px; }
+  .or__item p {
+    font-size: 14px; }
+  .header-slider h2 {
+    font-size: 34px; }
+  .header-slider p {
+    font-size: 20px; } }
+
+.inner {
+  max-width: 1600px;
+  margin: 0 auto; }
+
+.inline-block {
+  display: inline-block; }
+
+h2 {
+  color: white; }
+
+.or__item {
+  background-size: cover; }
+  .or__item span {
+    top: 36%; }
+  .or__item p {
+    top: 53%; }

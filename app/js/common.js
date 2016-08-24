@@ -14,13 +14,28 @@ $(function() {
 
 	// fancybox
 	$("a.modal").fancybox();
-	$(document).ready(function() {
-		$('#header-slider').lightSlider({
-			adaptiveHeight:true,
-			item:1,
-			slideMargin:0,
-			loop:true
-		});
+	$('#header-slider').lightSlider({
+		adaptiveHeight:true,
+		item:1,
+		slideMargin:0,
+		loop:true,
+		addClass: "header-slider-container",
+		controls: false,
+		auto: true,
+		speed: 1000,
+		pause: 5000
+	});
+
+	$(".with-sub-menu").on("click",function(e){
+		e.stopPropagation();
+		$(this).toggleClass("active");
+	});
+
+	$(document).on("click",function(event){
+		if( $(event.target).closest(".header-top__menu").length )
+			return;
+		$(".with-sub-menu").removeClass("active");
+		event.stopPropagation();
 	});
 });
 
