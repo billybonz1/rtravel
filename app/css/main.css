@@ -232,7 +232,13 @@ body textarea:required:valid {
   margin: 60px 0; }
 
 /* Large Devices, Wide Screens */
+@media only screen and (max-width: 1500px) {
+  .news-ser {
+    max-height: 140px; } }
+
 @media only screen and (max-width: 1200px) {
+  .news-ser {
+    max-height: 139px; }
   .krasnodar h2 {
     font-size: 50px;
     font-weight: 700; }
@@ -252,14 +258,22 @@ body textarea:required:valid {
     font-size: 47px;
     font-weight: 700; }
   .krasnodar p {
-    font-size: 23px; } }
+    font-size: 23px; }
+  .news-ser {
+    max-height: 235px; }
+  .news-mid__item {
+    min-height: 592px; }
+  .routes__item {
+    min-height: 474px; } }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   .krasnodar h2 {
     font-size: 42px; }
   .krasnodar p {
-    font-size: 20px; } }
+    font-size: 20px; }
+  .news-mid__item {
+    min-height: 10px; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {

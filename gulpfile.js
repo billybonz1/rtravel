@@ -59,7 +59,7 @@ gulp.task('common', function() {
 });
 
 gulp.task('watch', function () {
-	gulp.watch('scss/*.scss', ['styles']);
+	gulp.watch('scss/**/*.scss', ['styles']);
 	gulp.watch('app/libs/**/*.js', ['scripts']);
 	gulp.watch('app/js/*.js').on("change", browserSync.reload);
 	gulp.watch('app/*.html').on('change', browserSync.reload);

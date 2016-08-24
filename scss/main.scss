@@ -255,5 +255,9 @@ body textarea:required:valid{
     margin: 60px 0;
 }
 //ALWAYS END
-@import "media.scss";
-@import "sketches.scss";
+@import "media";
+@import "sketches";
+
+
+@import "jeka/main";
+@import "taras/main";

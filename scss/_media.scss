@@ -2,7 +2,15 @@
 @import "vars.scss";
 
 /* Large Devices, Wide Screens */
+@media only screen and (max-width : 1500px) {
+	.news-ser{
+		max-height: 140px;
+	}
+}
 @media only screen and (max-width : 1200px) {
+	.news-ser{
+		max-height: 139px;
+	}
 	.krasnodar{
 		h2{
 			font-size: 50px;
@@ -25,6 +33,16 @@
 			font-size: 23px;
 		}
 	}
+
+	.news-ser{
+		max-height: 235px;
+	}
+	.news-mid__item{
+		min-height: 592px;
+	}
+	.routes__item{
+		min-height:474px;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -36,6 +54,9 @@
 		p{
 			font-size: 20px;
 		}
+	}
+	.news-mid__item{
+		min-height: 10px;
 	}
 }
 
