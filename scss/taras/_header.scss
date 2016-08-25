@@ -3,6 +3,11 @@
 header{
   position: relative;
 }
+.header-slider{
+  li{
+    background-size: cover;
+  }
+}
 .header-top_red{
   color: #dd0808;
 }

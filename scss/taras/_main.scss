@@ -14,3 +14,110 @@
     top: 53%;
   }
 }
+.poster{
+  p{
+    text-transform: uppercase;
+  }
+  padding: 40px 0;
+}
+.poster-image{
+  min-height: 528px;
+  background-size: cover;
+}
+.poster-border{
+  border: 1px solid lightgrey;
+}
+.poster-border-left{
+  border-left: 1px solid lightgrey;
+}
+.poster-content{
+  text-align: left;
+  a{
+    text-decoration: none;
+    &:hover{
+      color: #8b8b8b;
+      transition: 0.3s all;
+    }
+  }
+}
+.poster-pr0{
+  padding-right: 0;
+}
+.poster-p0{
+  padding: 0;
+}
+.poster-pl39{
+  padding-left: 39px;
+}
+.poster-content__item__header{
+  color: #222;
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-top: 25px;
+}
+.poster-content__item__title{
+  color: #222;
+  font-size: 24px;
+  font-weight: 400;
+  padding-top: 40px;
+}
+.poster-content__item__title2{
+  color: #222;
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+.poster-content__item__p{
+  color: #8b8b8b;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  padding-top: 25px;
+}
+.poster-content__item__a{
+  color: #222;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  display: block;
+  padding: 45px 0px;
+}
+.poster-content__item{
+  span{
+    color: #8b8b8b;
+    font-size: 14px;
+    font-weight: 300;
+  }
+  p{
+    text-transform: uppercase;
+    color: black;
+    line-height: 24px;
+    padding-left: 26px;
+    padding-top: 15px;
+  }
+}
+.a-border{
+  border-bottom: 1px solid lightgrey;
+  display: block;
+  height: 131.5px;
+  transition: .3s all;
+  &:hover,&.active{
+    background-color: #f3f3f3;
+  }
+  &.active{
+    border-right: 5px solid #05cdff;
+  }
+}
+.poster-content__item__date{
+  *{
+    vertical-align: middle;
+  }
+  padding-top: 17px;
+  padding-left: 21px;
+}
+.krasnodar{
+  background-size: cover;
+}
