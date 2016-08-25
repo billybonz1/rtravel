@@ -1,6 +1,37 @@
 @import "bourbon";
+@media only screen and (max-width : 1462px){
+  .poster-content__item__header{
+    font-size: 29px;
+  }
+  .poster-content__item__title{
+    padding-top: 20px;
+  }
+  .poster-content__item p{
+    font-size: 16px;
+  }
+}
 
+@media only screen and (max-width : 1323px){
+  .poster-content__item p{
+    font-size: 13px;
+  }
+  .poster-content__item__p{
+    font-size: 14px;
+  }
+}
 @media only screen and (max-width : 1200px) {
+  .poster-pr0{
+    padding-right: 15px;
+  }
+  .poster-pl0{
+    padding-left: 15px;
+  }
+  .poster-p0{
+    padding: 0 15px;
+  }
+  .poster-pl39{
+    padding-left: 15px;
+  }
   .or__item span {
     font-size: 23px;
   }
@@ -36,6 +67,12 @@
     p{
       font-size: 20px;
     }
+  }
+}
+
+@media only screen and (max-width : 642px) {
+  .poster-image{
+    min-height: 52vw;
   }
 }
 
