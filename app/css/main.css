@@ -431,6 +431,27 @@ p {
   .footer__item p {
     max-width: 341px; }
   .footer__item a {
-    font-size: 15px; }
+    font-size: 13px; }
   .footer__item_color {
     margin-top: 35px; } }
+
+@media only screen and (max-width: 582px) {
+  .footer__item_color {
+    font-size: 10px !important;
+    margin-top: 65px; } }
+
+@media only screen and (max-width: 350px) {
+  .news {
+    float: none !important; }
+  .news-right {
+    float: none !important;
+    position: static; }
+  .routes__item__p1 {
+    font-size: 20px; }
+  .footer__item a {
+    font-size: 12px; }
+  .footer__item p {
+    font-size: 10px; }
+  .footer__item_color {
+    margin-top: 65px;
+    font-size: 9px !important; } }
