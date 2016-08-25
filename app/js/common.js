@@ -37,6 +37,17 @@ $(function() {
 		$(".with-sub-menu").removeClass("active");
 		event.stopPropagation();
 	});
+
+
+	$('.a-border').on('click',function(e){
+		e.preventDefault();
+		var id = $(this).attr("href");
+		$('.a-border').removeClass('active');
+		$(this).addClass('active');
+		$(".poster *[data-post-id].active").hide().removeClass("active");
+		$(".poster *[data-post-id="+id+"]").show().addClass("active");;
+
+	});
 });
 
 //Форма отправки 2.0

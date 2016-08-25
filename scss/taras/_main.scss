@@ -1,9 +1,5 @@
 @import "bourbon";
 
-@import "media";
-@import "sketches";
-@import "icons";
-
 
 .or__item {
   background-size: cover;
@@ -21,8 +17,14 @@
   padding: 40px 0;
 }
 .poster-image{
-  min-height: 528px;
+  transition: .3s all;
   background-size: cover;
+  background-position: right top;
+  display: none;
+  min-height: 528px;
+  &.active{
+    display: block;
+  }
 }
 .poster-border{
   border: 1px solid lightgrey;
@@ -43,11 +45,20 @@
 .poster-pr0{
   padding-right: 0;
 }
+.poster-pl0{
+  padding-left: 0;
+}
 .poster-p0{
   padding: 0;
 }
 .poster-pl39{
   padding-left: 39px;
+}
+.poster-border-top{
+  border-top: 1px solid lightgrey;
+}
+.poster-border-bottom{
+  border-bottom: 1px solid lightgrey;
 }
 .poster-content__item__header{
   color: #222;
@@ -86,6 +97,7 @@
   padding: 45px 0px;
 }
 .poster-content__item{
+  max-height: 528px;
   span{
     color: #8b8b8b;
     font-size: 14px;
@@ -99,11 +111,23 @@
     padding-top: 15px;
   }
 }
+.pci{
+  & > div{
+    transition: .3s all;
+    display: none;
+    &.active{
+      display: block;
+    }
+  }
+}
 .a-border{
+  border-right: 1px solid lightgrey;
   border-bottom: 1px solid lightgrey;
+  border-left: 1px solid lightgrey;
   display: block;
-  height: 131.5px;
+  height: 131.9px;
   transition: .3s all;
+  padding-right: 12px;
   &:hover,&.active{
     background-color: #f3f3f3;
   }
@@ -121,3 +145,7 @@
 .krasnodar{
   background-size: cover;
 }
+
+@import "media";
+@import "sketches";
+@import "icons";
