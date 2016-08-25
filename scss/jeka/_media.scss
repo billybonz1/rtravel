@@ -26,6 +26,12 @@
   }
 }
 @media only screen and (max-width : 992px) {
+  .routes__item__p1{
+    font-size: 25px;
+  }
+  .routes__item__p2{
+    font-size: 20px;
+  }
   .rus-region__item_high{
     min-height: 251px;
     span{
@@ -35,6 +41,10 @@
       top: 130px;
     }
   }
+  .footer__item p{
+    max-width: 341px;
+  }
+;
   .footer__item a{
     font-size: 15px;
   }
