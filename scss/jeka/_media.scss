@@ -1,4 +1,29 @@
 @import "bourbon";
+@media only screen and (max-width : 1500px){
+  .routes__item__top{
+    min-height: 345px;
+  }
+  .footer__item a{
+    font-size: 11px;
+  }
+}
+@media only screen and (max-width : 1200px){
+  .footer__item a{
+    font-size: 9px;
+  }
+  .routes__item__top{
+    min-height: 404px;
+  }
+  .footer__item_color{
+    margin-top: 35px;
+  }
+
+}
+@media only screen and (max-width : 1064px){
+    .routes__item__top{
+      min-height: 490px;
+    }
+}
 @media only screen and (max-width : 992px) {
   .rus-region__item_high{
     min-height: 251px;
@@ -9,5 +34,9 @@
       top: 130px;
     }
   }
+  .footer__item a{
+    font-size: 15px;
+  }
+
 
 }
