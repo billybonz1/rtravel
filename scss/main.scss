@@ -272,19 +272,7 @@ body textarea:required:valid{
         text-transform: uppercase;
     }
 }
-.btn-overall{
-    background: none;
-    border: 2px solid white;
-    border-radius: 5px;
-    color: white;
-    font-size: 19px;
-    font-weight: 400;
-    padding: 15px 32px;
-    &:hover{
-        background-color: #dd0808;
-        transition: 0.5s all;
-    }
-}
+
 .kr-btn{
     margin: 86px 0;
 }

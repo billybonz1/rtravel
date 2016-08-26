@@ -7,8 +7,8 @@ var gulp         = require('gulp'),
 		imagemin = require('gulp-imagemin'),
 		pngquant    = require('imagemin-pngquant'),
 		cache       = require('gulp-cache'),
-		uglify       = require('gulp-uglify'),
-		sourcemaps = require('gulp-sourcemaps');
+		uglify       = require('gulp-uglify');
+		// sourcemaps = require('gulp-sourcemaps');
 
 gulp.task('img', function() {
     return gulp.src('app/img/**/*')

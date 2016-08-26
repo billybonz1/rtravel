@@ -247,20 +247,6 @@ body textarea:required:valid {
   .krasnodar p {
     text-transform: uppercase; }
 
-.btn-overall {
-  background: none;
-  border: 2px solid white;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-  color: white;
-  font-size: 19px;
-  font-weight: 400;
-  padding: 15px 32px; }
-  .btn-overall:hover {
-    background-color: #dd0808;
-    -webkit-transition: 0.5s all;
-    transition: 0.5s all; }
-
 .kr-btn {
   margin: 86px 0; }
 
