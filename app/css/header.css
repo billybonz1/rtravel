@@ -21,7 +21,8 @@ a:hover {
   background-size: cover;
   -webkit-transform: scale(1.72);
   -ms-transform: scale(1.72);
-  transform: scale(1.72); }
+  transform: scale(1.72);
+  vertical-align: top; }
 
 .header-top__menu .padding-map {
   padding: 12px 14px; }

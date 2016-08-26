@@ -1,5 +1,11 @@
 $(function() {
-
+	/* Mobile Detect*/
+	var md = window.navigator.userAgent;
+	var isMobile = md.indexOf("Mobile") > 0 ? 1 : 0;
+	console.log(isMobile);
+	if(isMobile){
+		$(".header-slider li").height($(window).height());
+	}
 	//Chrome Smooth Scroll
 	try {
 		$.browserSelector();
@@ -25,8 +31,9 @@ $(function() {
 		speed: 1000,
 		pause: 5000,
 		onSliderLoad: function () {
-			var v = document.getElementsByTagName("video")[0];
-			v.play();
+			$("video").each(function(){
+				$(this)[0].play();
+			});
 		}
 	});
 
@@ -77,6 +84,10 @@ $(function() {
 	}else{
 		$(".header-top").removeClass("fixed");
 	}
+
+
+
+
 });
 
 //Форма отправки 2.0
