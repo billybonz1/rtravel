@@ -766,9 +766,9 @@ a.poster-content__item__a {
 
 @media only screen and (max-width: 529px) {
   .header-slider video {
-    -webkit-transform: scale(2.8);
-    -ms-transform: scale(2.8);
-    transform: scale(2.8); } }
+    -webkit-transform: scale(4);
+    -ms-transform: scale(4);
+    transform: scale(4); } }
 
 @media only screen and (max-width: 480px) {
   .or__item span {

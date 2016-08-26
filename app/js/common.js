@@ -2,9 +2,10 @@ $(function() {
 	/* Mobile Detect*/
 	var md = window.navigator.userAgent;
 	var isMobile = md.indexOf("Mobile") > 0 ? 1 : 0;
-	console.log(isMobile);
 	if(isMobile){
-		$(".header-slider li").height($(window).height());
+		$(".header-slider li").css({
+			"height": $(window).height() + "px"
+		});
 	}
 	//Chrome Smooth Scroll
 	try {
@@ -30,6 +31,7 @@ $(function() {
 		auto: true,
 		speed: 1000,
 		pause: 5000,
+		enableTouch: true,
 		onSliderLoad: function () {
 			$("video").each(function(){
 				$(this)[0].play();
