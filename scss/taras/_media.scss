@@ -70,8 +70,7 @@
     }
     li {
       width: 100%;
-      padding-right: 0;
-      padding-left: 0;
+      padding: 10px 0;
       text-align: center;
       a {
         font-size: 12px;
@@ -121,6 +120,20 @@
     }
   }
 }
+
+
+@media only screen and (max-width : 792px) {
+  .pull-social,.logo-cont,.footer__item h5{
+    float: none !important;
+  }
+  .footer__item{
+    .pull-social{
+      padding-left: 15px;
+    }
+  }
+
+
+}
 @media only screen and (max-width : 768px) {
   .header-slider{
     h2{
@@ -152,5 +165,14 @@
     p{
       font-size: 20px;
     }
+  }
+}
+
+@media only screen and (max-width : 418px) {
+  .gamburger{
+    top: 95px;
+  }
+  .pull-social{
+    max-width: 300px;
   }
 }

@@ -14,7 +14,8 @@
   p{
     text-transform: uppercase;
   }
-  padding: 40px 0;
+  padding-top: 20px;
+  padding-bottom: 78px;
 }
 .poster-image{
   transition: .3s all;
@@ -133,6 +134,9 @@
   }
   &.active{
     border-right: 5px solid #05cdff;
+  }
+  &:focus{
+    text-decoration: none;
   }
 }
 .poster-content__item__date{

@@ -4,7 +4,7 @@ body {
   font-weight: 400; }
 
 .header-slider li {
-  height: 768px; }
+  height: 707px; }
 
 .header-top__menu .padding-map {
   padding: 12px 14px; }
@@ -177,6 +177,10 @@ header {
     text-align: center;
     vertical-align: middle;
     position: relative; }
+    .social a:hover i:after {
+      -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+      transform: scale(1); }
   .social i {
     margin: auto;
     position: absolute;
@@ -186,6 +190,8 @@ header {
     top: 0;
     width: 100%;
     height: 100%;
+    -webkit-transition: .2s all;
+    transition: .2s all;
     background-position: center; }
     .social i:after {
       content: "";
@@ -204,10 +210,6 @@ header {
       transform: scale(0);
       -webkit-transition: .3s all;
       transition: .3s all; }
-    .social i:hover:after {
-      -webkit-transform: scale(1);
-      -ms-transform: scale(1);
-      transform: scale(1); }
 
 .user-menu {
   vertical-align: middle; }
