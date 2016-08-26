@@ -201,11 +201,13 @@ header {
   padding-top: 13px;
   padding-bottom: 11px;
   position: relative;
-  z-index: 2; }
+  z-index: 2;
+  text-shadow: 1px 1px 4px #000; }
 
 .header-slider p {
   position: relative;
-  z-index: 2; }
+  z-index: 2;
+  text-shadow: 1px 1px 4px #000; }
 
 .pull-social {
   padding-right: 0px;
