@@ -3,8 +3,25 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400; }
 
+a:hover {
+  color: #000;
+  text-decoration: underline; }
+
 .header-slider li {
-  height: 707px; }
+  height: 707px;
+  position: relative;
+  overflow: hidden; }
+
+.header-slider video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-size: cover;
+  -webkit-transform: scale(1.72);
+  -ms-transform: scale(1.72);
+  transform: scale(1.72); }
 
 .header-top__menu .padding-map {
   padding: 12px 14px; }
@@ -43,6 +60,8 @@ header {
     .header-top.fixed .logo {
       margin-right: 20px;
       padding-top: 10px; }
+    .header-top.fixed .gamburger {
+      top: 23px; }
 
 .logo {
   padding-top: 20px; }
@@ -107,7 +126,7 @@ header {
       .header-top__menu li.with-sub-menu .sub-menu {
         visibility: hidden;
         position: absolute;
-        top: 54px;
+        top: 53px;
         left: -10px;
         background-color: rgba(255, 255, 255, 0.9);
         -webkit-transition: .2s all;
@@ -170,7 +189,7 @@ header {
   width: 25px;
   position: absolute;
   right: 15px;
-  top: 95px; }
+  top: 33px; }
   .gamburger span {
     display: block;
     width: 100%;
@@ -180,7 +199,13 @@ header {
 
 .header-slider h2 {
   padding-top: 13px;
-  padding-bottom: 11px; }
+  padding-bottom: 11px;
+  position: relative;
+  z-index: 2; }
+
+.header-slider p {
+  position: relative;
+  z-index: 2; }
 
 .pull-social {
   padding-right: 0px;

@@ -23,7 +23,11 @@ $(function() {
 		controls: false,
 		auto: true,
 		speed: 1000,
-		pause: 5000
+		pause: 5000,
+		onSliderLoad: function () {
+			var v = document.getElementsByTagName("video")[0];
+			v.play();
+		}
 	});
 
 	$(".with-sub-menu a").on("click",function(e){

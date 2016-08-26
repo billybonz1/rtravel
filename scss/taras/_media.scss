@@ -11,6 +11,17 @@
   }
 }
 
+
+@media only screen and (max-width : 1462px){
+  .header-top__menu li a{
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width : 1330px){
+  .header-top__menu li{
+    padding-right: 25px;
+  }
+}
 @media only screen and (max-width : 1323px){
   .poster-content__item p{
     font-size: 13px;
@@ -60,9 +71,10 @@
   }
 
 }
-@media only screen and (max-width : 1160px) {
+@media only screen and (max-width : 1174px) {
   .header-top__menu:not(.header-top__lang) {
-    padding-top: 40px;
+    padding-top: 0px;
+    border: 0;
     height: 0;
     overflow: hidden;
     &.active{
@@ -107,6 +119,12 @@
         opacity: 0;
       }
     }
+  }
+  .pull-social{
+    display: none;
+  }
+  .logo-cont{
+    float: none !important;
   }
 }
 @media only screen and (max-width : 992px) {

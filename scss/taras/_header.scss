@@ -38,6 +38,9 @@ header{
       margin-right: 20px;
       padding-top: 10px;
     }
+    .gamburger{
+      top: 23px;
+    }
   }
 
 }
@@ -122,7 +125,7 @@ header{
       .sub-menu{
         visibility: hidden;
         position: absolute;
-        top: 54px;
+        top: 53px;
         left: -10px;
         background-color: rgba(255, 255, 255, 0.9);
         transition: .2s all;
@@ -197,7 +200,7 @@ header{
   width: 25px;
   position: absolute;
   right: 15px;
-  top: 95px;
+  top: 33px;
   span{
     display: block;
     width: 100%;
@@ -211,6 +214,12 @@ header{
   h2{
     padding-top: 13px;
     padding-bottom: 11px;
+    position: relative;
+    z-index: 2;
+  }
+  p{
+    position: relative;
+    z-index: 2;
   }
 }
 
