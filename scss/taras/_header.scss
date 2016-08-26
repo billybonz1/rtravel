@@ -73,10 +73,11 @@ header{
   border-top: 1px solid lightgrey;
   margin-top: 20px;
   li{
-    display: inline-block;
-    padding-top: 17px;
-    padding-bottom: 18px;
-    padding-right: 70px;
+      display: inline-block;
+      padding-top: 12px;
+      padding-bottom: 18px;
+      padding-right: 54px;
+
     &.with-sub-menu{
       cursor: pointer;
       position: relative;

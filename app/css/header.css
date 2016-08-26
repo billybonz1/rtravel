@@ -6,6 +6,9 @@ body {
 .header-slider li {
   height: 768px; }
 
+.header-top__menu .padding-map {
+  padding: 12px 15px; }
+
 header {
   position: relative; }
 
@@ -64,9 +67,9 @@ header {
   margin-top: 20px; }
   .header-top__menu li {
     display: inline-block;
-    padding-top: 17px;
+    padding-top: 12px;
     padding-bottom: 18px;
-    padding-right: 70px; }
+    padding-right: 54px; }
     .header-top__menu li.with-sub-menu {
       cursor: pointer;
       position: relative; }
