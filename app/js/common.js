@@ -26,9 +26,9 @@ $(function() {
 		pause: 5000
 	});
 
-	$(".with-sub-menu").on("click",function(e){
-		e.stopPropagation();
-		$(this).toggleClass("active");
+	$(".with-sub-menu a").on("click",function(e){
+		e.preventDefault();
+		$(this).parent("li").toggleClass("active");
 	});
 
 	$(document).on("click",function(event){
@@ -60,6 +60,19 @@ $(function() {
 		$(".header-top__menu:not(.header-top__lang)").toggleClass('active');
 		event.stopPropagation();
 	});
+
+	$(window).scroll(function(){
+		if($(document).scrollTop() > 360){
+			$(".header-top").addClass("fixed");
+		}else{
+			$(".header-top").removeClass("fixed");
+		}
+	});
+	if($(document).scrollTop() > 360){
+		$(".header-top").addClass("fixed");
+	}else{
+		$(".header-top").removeClass("fixed");
+	}
 });
 
 //Форма отправки 2.0
