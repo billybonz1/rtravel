@@ -10,6 +10,12 @@ body{
     height: 768px;
   }
 }
+.header-top__menu{
+  .padding-map{
+    padding: 12px 15px;
+  }
+}
+
 
 @import "jeka/header";
 @import "taras/header";

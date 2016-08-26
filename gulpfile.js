@@ -7,7 +7,8 @@ var gulp         = require('gulp'),
 		imagemin = require('gulp-imagemin'),
 		pngquant    = require('imagemin-pngquant'),
 		cache       = require('gulp-cache'),
-		uglify       = require('gulp-uglify');
+		uglify       = require('gulp-uglify'),
+		sourcemaps = require('gulp-sourcemaps');
 
 gulp.task('img', function() {
     return gulp.src('app/img/**/*')
@@ -27,13 +28,17 @@ gulp.task('browser-sync', ['styles', 'scripts'], function() {
 				},
 				notify: false
 		});
+		gulp.watch("app/scss/*.scss", ['sass']);
+		gulp.watch("app/*.html").on('change', browserSync.reload);
 });
 
 gulp.task('styles', function () {
 	return gulp.src('scss/*.scss')
+	// .pipe(sourcemaps.init())
 	.pipe(sass({
 		includePaths: require('node-bourbon').includePaths
 	}).on('error', sass.logError))
+	// .pipe(sourcemaps.write())
 	.pipe(autoprefixer({browsers: ['last 15 versions'], cascade: false}))
 	//.pipe(cleanCSS())
 	.pipe(gulp.dest('app/css'))
