@@ -15,7 +15,9 @@ body{
     padding: 12px 14px;
   }
 }
-
+header{
+  overflow: hidden;
+}
 
 @import "jeka/header";
 @import "taras/header";

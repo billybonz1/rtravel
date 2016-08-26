@@ -23,14 +23,15 @@ body textarea:required:valid {
   color: #666; }
 
 .news-mid {
-  margin-top: 30px; }
+  margin-top: 19px; }
 
 .news-right {
   color: #222;
-  font-family: Roboto;
   font-size: 17px;
   font-weight: 400;
   text-transform: uppercase; }
+  .news-right.news-right-without-p {
+    margin-top: -15px; }
 
 .line {
   width: 65px;
@@ -40,7 +41,6 @@ body textarea:required:valid {
 
 .news-bord h4 {
   color: #222;
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
@@ -50,7 +50,6 @@ body textarea:required:valid {
 
 .data {
   color: #dd0808;
-  font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -58,7 +57,6 @@ body textarea:required:valid {
 
 .locale {
   color: #8b8b8b;
-  font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -92,7 +90,6 @@ body textarea:required:valid {
   -webkit-border-radius: 4px;
   border-radius: 4px;
   color: #222;
-  font-family: Roboto;
   font-size: 17px;
   font-weight: 400;
   padding: 15px 39px; }
@@ -101,7 +98,6 @@ body textarea:required:valid {
 
 .news p {
   color: #222;
-  font-family: Roboto;
   font-size: 18px;
   font-weight: 400;
   text-transform: uppercase;
@@ -118,7 +114,6 @@ body textarea:required:valid {
 
 .routes__item__p1 {
   color: #222;
-  font-family: Roboto;
   font-size: 17px;
   font-weight: 500;
   line-height: 24px;
@@ -152,7 +147,8 @@ body textarea:required:valid {
 
 .or {
   padding: 15px 17px;
-  padding-bottom: 50px; }
+  padding-bottom: 12px;
+  padding-top: 25px; }
 
 .or-border {
   border-top: 1px solid lightgrey;
@@ -240,7 +236,7 @@ body textarea:required:valid {
   .krasnodar h2 {
     text-transform: uppercase;
     color: white;
-    padding-top: 60px;
+    padding-top: 97px;
     padding-bottom: 20px; }
   .krasnodar p {
     text-transform: uppercase; }
@@ -255,12 +251,12 @@ body textarea:required:valid {
   font-weight: 400;
   padding: 15px 32px; }
   .btn-overall:hover {
-    background-color: #4b3730;
+    background-color: #dd0808;
     -webkit-transition: 0.5s all;
     transition: 0.5s all; }
 
 .kr-btn {
-  margin: 60px 0; }
+  margin: 86px 0; }
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1500px) {
@@ -353,9 +349,9 @@ p {
 
 .news-right {
   position: absolute;
-  right: 15px;
+  right: 24px;
   top: 50%;
-  margin-top: -12px; }
+  margin-top: 7px; }
 
 .rus-region *[class*="col-"] {
   padding: 0px; }
@@ -501,7 +497,7 @@ p {
 
 .poster {
   padding-top: 20px;
-  padding-bottom: 78px; }
+  padding-bottom: 55px; }
   .poster p {
     text-transform: uppercase; }
 
@@ -553,7 +549,16 @@ p {
   font-size: 36px;
   font-weight: 400;
   text-transform: uppercase;
-  padding-top: 25px; }
+  padding-top: 25px;
+  line-height: 49px; }
+  .poster-content__item__header:after {
+    position: relative;
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: #cecece;
+    margin-top: 6px; }
 
 .poster-content__item__title {
   color: #222;

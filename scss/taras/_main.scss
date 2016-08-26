@@ -15,7 +15,7 @@
     text-transform: uppercase;
   }
   padding-top: 20px;
-  padding-bottom: 78px;
+  padding-bottom: 55px;
 }
 .poster-image{
   transition: .3s all;
@@ -67,6 +67,16 @@
   font-weight: 400;
   text-transform: uppercase;
   padding-top: 25px;
+  line-height: 49px;
+  &:after{
+    position: relative;
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: #cecece;
+    margin-top: 6px;
+  }
 }
 .poster-content__item__title{
   color: #222;

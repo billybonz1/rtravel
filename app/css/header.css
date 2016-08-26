@@ -10,6 +10,9 @@ body {
   padding: 12px 14px; }
 
 header {
+  overflow: hidden; }
+
+header {
   position: relative; }
 
 .header-slider li {
