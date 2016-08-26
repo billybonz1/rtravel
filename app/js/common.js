@@ -48,6 +48,18 @@ $(function() {
 		$(".poster *[data-post-id="+id+"]").show().addClass("active");;
 
 	});
+
+	$('.gamburger').on('click',function(){
+		$(this).toggleClass('active');
+		$(".header-top__menu:not(.header-top__lang)").toggleClass('active');
+	});
+
+	$(document).on("click",function(event){
+		if( $(event.target).closest(".header-top__menu:not(.header-top__lang),.gamburger").length )return;
+		$('.gamburger').toggleClass('active');
+		$(".header-top__menu:not(.header-top__lang)").toggleClass('active');
+		event.stopPropagation();
+	});
 });
 
 //Форма отправки 2.0

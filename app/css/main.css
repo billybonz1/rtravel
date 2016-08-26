@@ -276,12 +276,13 @@ body textarea:required:valid {
 
 /* ============================ form css =========================== */
 .inner {
-  max-width: 1600px;
+  max-width: 1639px;
   margin: 0 auto; }
 
 h2 {
   font-size: 52px;
-  font-weight: 700; }
+  font-weight: 700;
+  letter-spacing: 2.5px; }
 
 h3 {
   color: #222;
@@ -624,7 +625,49 @@ p {
     font-size: 50px;
     font-weight: 700; }
   .header-slider p {
-    font-size: 26px; } }
+    font-size: 26px; }
+  .header-top__menu li a {
+    font-size: 13px; }
+  .header-top__menu li.with-sub-menu .sub-menu {
+    display: block;
+    top: 53px; } }
+
+@media only screen and (max-width: 1160px) {
+  .header-top__menu:not(.header-top__lang) {
+    padding-top: 40px;
+    height: 0;
+    overflow: hidden; }
+    .header-top__menu:not(.header-top__lang).active {
+      height: auto; }
+    .header-top__menu:not(.header-top__lang) li {
+      width: 100%;
+      padding-right: 0;
+      padding-left: 0;
+      text-align: center; }
+      .header-top__menu:not(.header-top__lang) li a {
+        font-size: 12px; }
+    .header-top__menu:not(.header-top__lang) li.with-sub-menu .sub-menu {
+      position: static;
+      display: none;
+      background: none;
+      padding-top: 20px; }
+    .header-top__menu:not(.header-top__lang) li.with-sub-menu.active .sub-menu {
+      display: block; }
+  .gamburger {
+    display: block; }
+    .gamburger span {
+      -webkit-transition: .4s all;
+      transition: .4s all; }
+    .gamburger.active span:first-child {
+      -webkit-transform: rotate(45deg) translateX(6px) translateY(6px);
+      -ms-transform: rotate(45deg) translateX(6px) translateY(6px);
+      transform: rotate(45deg) translateX(6px) translateY(6px); }
+    .gamburger.active span:nth-child(2) {
+      -webkit-transform: rotate(-45deg) translateX(-1px) translateY(0px);
+      -ms-transform: rotate(-45deg) translateX(-1px) translateY(0px);
+      transform: rotate(-45deg) translateX(-1px) translateY(0px); }
+    .gamburger.active span:last-child {
+      opacity: 0; } }
 
 @media only screen and (max-width: 992px) {
   .header-slider h2 {
@@ -652,10 +695,6 @@ p {
     font-size: 34px; }
   .header-slider p {
     font-size: 20px; } }
-
-.inner {
-  max-width: 1600px;
-  margin: 0 auto; }
 
 .inline-block {
   display: inline-block; }
